@@ -1,0 +1,107 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html,body,.wrap{
+	width:100%;
+	height: 100%;
+	background:#ccc;
+}
+body{
+	font-size:62.5%;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background: #000;
+}
+.head{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.head .one{
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	font-size: 18px;
+	color:#fff;
+	line-height: 40px;
+	border-right:1px #666 solid;
+}
+.head .teo{
+	width: 70%;
+	height: 100%;
+	text-align: left;
+	font-size: 18px;
+	color:#fff;
+	line-height:40px;
+}
+.head .mo{
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	font-size: 18px;
+	color:#fff;
+	line-height:40px;
+}
+section{
+	width: 100%;
+	height: auto;
+	margin-top:40px;
+}
+.cont{
+	width: 90%;
+	height: 360px;
+	background: #fff;
+	margin:0 auto;
+	border-radius: 10px;
+}
+.cont p{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	padding-top:10px;
+}
+.cont p img{
+	width: 50%;
+	height: 60%;
+}
+.cont p span{
+	display: block;
+	font-size: 16px;
+}
+.ipt{
+	width: 90%;
+	height: 40px;
+	margin:20px auto;
+	position: relative;
+	border-bottom: 1px #ccc solid;
+}
+.ipt img{
+	position: absolute;
+	left:0;
+	top:10px;
+	width: 12px;
+	height: 20px;
+}
+.ipt input{
+	width: 90%;
+	padding-left:20px;
+	height: 39px;
+	border:none;
+	outline: none;
+}
+button{
+	width: 90%;
+	margin:10px 5%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: lightgreen;
+	color:#fff;
+	border:none;
+	outline: none;
+}
